@@ -45,7 +45,7 @@ int main() {
     
     Start(width, height);                   // Start the picture
     Background(0, 0, 0);                    // Black background
-    Image((width / 2)-(logo_w / 2), (3 * height / 5) - (logo_h / 2), logo_w, logo_h, tmp_logo_filename);
+    Image(310+(width / 5)-(logo_w / 2), 150 + (3 * height / 10) - (logo_h / 2), logo_w, logo_h, tmp_logo_filename);
     
     //Fill(255, 255, 255, 1);                 // White text
     //TextMid(width / 2, 3* height / 20, "Connecting..", SansTypeface, width / 30);
