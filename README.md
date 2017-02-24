@@ -37,7 +37,7 @@ cd graphic/ && make && sudo make install && cd ../
 ### Compile and Install ARISS Video Module
 
 ```
-vim ariss_video.service # Set upstream hostname for connection
+vim ariss-video.service # Set upstream hostname for connection
 
 make && sudo make install
 ```
@@ -54,8 +54,8 @@ hdmi_force_hotplug=1
 
 ```
 hdmi_ignore_edid=0xa5000080
-hdmi_group = 1 # CEA
-hdmi_mode = 20 # HDMI_CEA_1080i50
+hdmi_group=1 # CEA
+hdmi_mode=20 # HDMI_CEA_1080i50
 ```
 
 ## Bugs
